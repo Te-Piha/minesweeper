@@ -39,7 +39,7 @@ document.addEventListener("contextmenu", checkForWin)
 
 function checkForWin () {
 
-  let victorySound = new Audio("ez4ence");
+  let victorySound = new Audio("ez4ence.mp3");
 
   for (i = 0; i < board.cells.length; i++) 
       {
